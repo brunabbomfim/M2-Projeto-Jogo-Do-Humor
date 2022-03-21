@@ -95,7 +95,7 @@ p {
     width: 50rem;
     height: 30rem;
 }
-@media (min-width: 500px){
+@media (max-width: 600px){
     .container, .card, #crd2{
         width: 100%;
     }
