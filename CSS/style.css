@@ -1,0 +1,103 @@
+body {    
+    margin: 0%;
+    background-color: rgb(255, 222, 244);
+}
+@font-face {
+    font-family: 'Textos';
+    src: url('../fonts/Catalina Rayden.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Texto2';
+    src: url('../fonts/Cute Notes.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Texto3';
+    src: url('../fonts/Bright Gesture DEMO.otf') format('truetype');
+}
+h1 {
+    font-family: 'Textos', Times, serif;
+    font-size: 7rem;
+    color: rgb(226, 9, 136);
+    text-align: center;
+}
+h2 {
+    font-size: 5rem;
+    font-weight: normal;
+    text-align: center;
+}
+p {
+    font-family: 'Texto3', serif;
+    font-size: 2.5rem;
+    color: rgb(226, 9, 136);
+    font-weight: normal;
+}
+.h2princesa {
+    font-family: 'Texto2', serif;
+    color: rgb(93, 168, 255);
+}
+.h2personagem {
+    font-size: 3.5rem;
+    font-family: 'Textos', serif;
+    color: rgb(226, 9, 136);
+}
+.h2nome {
+    font-family: 'Texto3', serif;
+    color: rgb(204, 0, 177);
+}
+#titulo {
+    align-items: center;
+    align-content: center;
+    background-image: url('/Media/img/Imagem3.png');
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center ;
+    text-align: center;
+    gap: 1rem;
+}
+.card {
+    background-color: rgb(243, 240, 192);
+    max-width: 60rem;
+    max-height: 70rem;
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 3rem;  
+}
+#card2 {
+    min-width: 75rem;
+    max-width: 75rem;
+}
+.border {
+    border-radius: 3rem;
+}
+#rodape {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 7rem;
+    color: black;
+}
+#bt {
+    background-color: rgb(195, 221, 252);
+    border: solid 0.3rem rgb(93, 168, 255);
+    border-radius: 2.5rem;  
+    cursor:pointer;
+    font-family: 'Texto3', serif;
+    font-weight:bold;
+    font-size:2rem;
+    padding: 1rem 2rem;
+}
+#img {
+    width: 50rem;
+    height: 30rem;
+}
+@media (min-width: 500px){
+    .container, .card, #crd2{
+        width: 100%;
+    }
+}
+
